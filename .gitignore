@@ -1,0 +1,10 @@
+gen_sample
+gen_sig
+matcher
+bonus
+*.fastq
+*.fasta
+*.txt
+check_property
+check_property.cu
+test_log

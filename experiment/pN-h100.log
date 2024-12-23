@@ -1,0 +1,427 @@
+h100 Job is running on xgpi4, started at Mon Oct 21 07:48:49 PM +08 2024
+NVCC info: nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2024 NVIDIA Corporation
+Built on Thu_Mar_28_02:18:24_PDT_2024
+Cuda compilation tools, release 12.4, V12.4.131
+Build cuda_12.4.r12.4/compiler.34097967_0
+
+====> Compiling...
+
+
+====> 0
+
+Settings:
+  FASTA file: test_signatures.fasta
+  Number of samples without virus: 2000
+  Number of samples with virus: 20
+  Number of viruses: minimum 1 to maximum 2
+  Requested sample length: minimum 200000 to maximum 200000
+  Average Phred score: 10 to 30
+  N ratio: 0
+  Final sample length values: minimum 200000 to maximum 200000 (after reading virus lengths)
+
+====> Bench...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+sample_1729511337132617_1: signature_1729511336689776_275 (21.010)
+sample_1729511337132617_4: signature_1729511336689776_209 (28.815)
+sample_1729511337132617_5: signature_1729511336689776_667 (24.993)
+sample_1729511337132617_6: signature_1729511336689776_48 (15.066)
+sample_1729511337132617_10: signature_1729511336689776_337 (28.255)
+sample_1729511337132617_10: signature_1729511336689776_386 (28.256)
+sample_1729511337132617_11: signature_1729511336689776_794 (23.942)
+sample_1729511337132617_13: signature_1729511336689776_531 (21.988)
+sample_1729511337132617_14: signature_1729511336689776_188 (22.965)
+sample_1729511337132617_17: signature_1729511336689776_207 (23.939)
+sample_1729511337132617_17: signature_1729511336689776_237 (23.981)
+sample_1729511337132617_18: signature_1729511336689776_313 (21.993)
+sample_1729511337132617_19: signature_1729511336689776_353 (16.014)
+sample_1729511337132617_20: signature_1729511336689776_59 (16.001)
+sample_1729511337132617_21: signature_1729511336689776_471 (22.915)
+sample_1729511337132617_22: signature_1729511336689776_106 (13.257)
+sample_1729511337132617_26: signature_1729511336689776_86 (26.791)
+sample_1729511337132617_29: signature_1729511336689776_404 (26.745)
+sample_1729511337132617_29: signature_1729511336689776_503 (26.750)
+sample_1729511337132617_32: signature_1729511336689776_841 (21.041)
+sample_1729511337132617_33: signature_1729511336689776_217 (23.974)
+sample_1729511337132617_37: signature_1729511336689776_192 (13.288)
+sample_1729511337132617_38: signature_1729511336689776_260 (25.894)
+sample_1729511337132617_38: signature_1729511336689776_346 (25.872)
+(FOR AUTOMATED CHECKING) Total runMatcher time:3.05863s
+
+====> shared_mod...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+sample_1729511337132617_1: signature_1729511336689776_275 (21.010)
+sample_1729511337132617_4: signature_1729511336689776_209 (28.815)
+sample_1729511337132617_5: signature_1729511336689776_667 (24.993)
+sample_1729511337132617_6: signature_1729511336689776_48 (15.066)
+sample_1729511337132617_10: signature_1729511336689776_337 (28.254)
+sample_1729511337132617_10: signature_1729511336689776_386 (28.256)
+sample_1729511337132617_11: signature_1729511336689776_794 (23.942)
+sample_1729511337132617_13: signature_1729511336689776_531 (21.988)
+sample_1729511337132617_14: signature_1729511336689776_188 (22.965)
+sample_1729511337132617_17: signature_1729511336689776_207 (23.939)
+sample_1729511337132617_17: signature_1729511336689776_237 (23.981)
+sample_1729511337132617_18: signature_1729511336689776_313 (21.993)
+sample_1729511337132617_19: signature_1729511336689776_353 (16.014)
+sample_1729511337132617_20: signature_1729511336689776_59 (16.001)
+sample_1729511337132617_21: signature_1729511336689776_471 (22.915)
+sample_1729511337132617_22: signature_1729511336689776_106 (13.257)
+sample_1729511337132617_26: signature_1729511336689776_86 (26.791)
+sample_1729511337132617_29: signature_1729511336689776_404 (26.746)
+sample_1729511337132617_29: signature_1729511336689776_503 (26.750)
+sample_1729511337132617_32: signature_1729511336689776_841 (21.041)
+sample_1729511337132617_33: signature_1729511336689776_217 (23.974)
+sample_1729511337132617_37: signature_1729511336689776_192 (13.288)
+sample_1729511337132617_38: signature_1729511336689776_260 (25.894)
+sample_1729511337132617_38: signature_1729511336689776_346 (25.872)
+(FOR AUTOMATED CHECKING) Total runMatcher time:1.70128s
+
+====> 0.04
+
+Settings:
+  FASTA file: test_signatures.fasta
+  Number of samples without virus: 2000
+  Number of samples with virus: 20
+  Number of viruses: minimum 1 to maximum 2
+  Requested sample length: minimum 200000 to maximum 200000
+  Average Phred score: 10 to 30
+  N ratio: 0.04
+  Final sample length values: minimum 200000 to maximum 200000 (after reading virus lengths)
+
+====> Bench...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+(FOR AUTOMATED CHECKING) Total runMatcher time:3.31379s
+
+====> shared_mod...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+sample_1729511373885468_1: signature_1729511373457472_107 (27.124)
+sample_1729511373885468_1: signature_1729511373457472_595 (27.051)
+sample_1729511373885468_2: signature_1729511373457472_562 (26.461)
+sample_1729511373885468_10: signature_1729511373457472_524 (27.192)
+sample_1729511373885468_12: signature_1729511373457472_278 (21.081)
+sample_1729511373885468_12: signature_1729511373457472_399 (21.076)
+sample_1729511373885468_13: signature_1729511373457472_47 (12.036)
+sample_1729511373885468_17: signature_1729511373457472_513 (23.911)
+sample_1729511373885468_20: signature_1729511373457472_177 (18.160)
+sample_1729511373885468_20: signature_1729511373457472_925 (18.277)
+sample_1729511373885468_22: signature_1729511373457472_112 (11.256)
+sample_1729511373885468_22: signature_1729511373457472_267 (11.357)
+sample_1729511373885468_24: signature_1729511373457472_222 (11.972)
+sample_1729511373885468_25: signature_1729511373457472_451 (17.318)
+sample_1729511373885468_25: signature_1729511373457472_781 (17.257)
+sample_1729511373885468_28: signature_1729511373457472_821 (21.156)
+sample_1729511373885468_30: signature_1729511373457472_968 (19.171)
+sample_1729511373885468_31: signature_1729511373457472_852 (27.148)
+sample_1729511373885468_32: signature_1729511373457472_753 (10.743)
+sample_1729511373885468_34: signature_1729511373457472_292 (15.374)
+sample_1729511373885468_34: signature_1729511373457472_782 (15.364)
+sample_1729511373885468_35: signature_1729511373457472_34 (11.273)
+sample_1729511373885468_37: signature_1729511373457472_198 (21.174)
+sample_1729511373885468_38: signature_1729511373457472_505 (23.897)
+sample_1729511373885468_39: signature_1729511373457472_815 (11.263)
+sample_1729511373885468_42: signature_1729511373457472_408 (27.107)
+(FOR AUTOMATED CHECKING) Total runMatcher time:1.89946s
+
+====> 0.08
+
+Settings:
+  FASTA file: test_signatures.fasta
+  Number of samples without virus: 2000
+  Number of samples with virus: 20
+  Number of viruses: minimum 1 to maximum 2
+  Requested sample length: minimum 200000 to maximum 200000
+  Average Phred score: 10 to 30
+  N ratio: 0.08
+  Final sample length values: minimum 200000 to maximum 200000 (after reading virus lengths)
+
+====> Bench...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+(FOR AUTOMATED CHECKING) Total runMatcher time:3.63962s
+
+====> shared_mod...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+sample_1729511418278686_3: signature_1729511417799958_595 (25.273)
+sample_1729511418278686_4: signature_1729511417799958_309 (20.284)
+sample_1729511418278686_8: signature_1729511417799958_620 (12.910)
+sample_1729511418278686_9: signature_1729511417799958_8 (21.988)
+sample_1729511418278686_9: signature_1729511417799958_533 (22.020)
+sample_1729511418278686_10: signature_1729511417799958_503 (10.901)
+sample_1729511418278686_11: signature_1729511417799958_53 (21.198)
+sample_1729511418278686_11: signature_1729511417799958_236 (21.092)
+sample_1729511418278686_12: signature_1729511417799958_740 (13.013)
+sample_1729511418278686_16: signature_1729511417799958_353 (21.952)
+sample_1729511418278686_16: signature_1729511417799958_385 (22.009)
+sample_1729511418278686_18: signature_1729511417799958_193 (11.456)
+sample_1729511418278686_22: signature_1729511417799958_799 (23.761)
+sample_1729511418278686_27: signature_1729511417799958_156 (26.460)
+sample_1729511418278686_27: signature_1729511417799958_922 (26.532)
+sample_1729511418278686_28: signature_1729511417799958_906 (19.282)
+sample_1729511418278686_29: signature_1729511417799958_687 (17.442)
+sample_1729511418278686_32: signature_1729511417799958_932 (12.202)
+sample_1729511418278686_33: signature_1729511417799958_371 (21.148)
+sample_1729511418278686_33: signature_1729511417799958_644 (21.228)
+sample_1729511418278686_34: signature_1729511417799958_364 (10.804)
+sample_1729511418278686_35: signature_1729511417799958_320 (10.757)
+sample_1729511418278686_35: signature_1729511417799958_932 (10.805)
+sample_1729511418278686_36: signature_1729511417799958_582 (11.411)
+sample_1729511418278686_37: signature_1729511417799958_41 (17.402)
+sample_1729511418278686_37: signature_1729511417799958_985 (17.533)
+sample_1729511418278686_38: signature_1729511417799958_444 (26.434)
+(FOR AUTOMATED CHECKING) Total runMatcher time:2.0527s
+
+====> 0.12
+
+Settings:
+  FASTA file: test_signatures.fasta
+  Number of samples without virus: 2000
+  Number of samples with virus: 20
+  Number of viruses: minimum 1 to maximum 2
+  Requested sample length: minimum 200000 to maximum 200000
+  Average Phred score: 10 to 30
+  N ratio: 0.12
+  Final sample length values: minimum 200000 to maximum 200000 (after reading virus lengths)
+
+====> Bench...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+(FOR AUTOMATED CHECKING) Total runMatcher time:3.90247s
+
+====> shared_mod...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+sample_1729511444812242_1: signature_1729511444326143_684 (23.688)
+sample_1729511444812242_3: signature_1729511444326143_189 (21.929)
+sample_1729511444812242_4: signature_1729511444326143_183 (15.813)
+sample_1729511444812242_5: signature_1729511444326143_31 (11.636)
+sample_1729511444812242_10: signature_1729511444326143_212 (10.320)
+sample_1729511444812242_14: signature_1729511444326143_387 (25.058)
+sample_1729511444812242_15: signature_1729511444326143_914 (25.432)
+sample_1729511444812242_18: signature_1729511444326143_232 (23.718)
+sample_1729511444812242_18: signature_1729511444326143_706 (23.562)
+sample_1729511444812242_21: signature_1729511444326143_83 (18.497)
+sample_1729511444812242_21: signature_1729511444326143_960 (18.612)
+sample_1729511444812242_22: signature_1729511444326143_121 (12.486)
+sample_1729511444812242_25: signature_1729511444326143_73 (21.931)
+sample_1729511444812242_28: signature_1729511444326143_132 (11.080)
+sample_1729511444812242_28: signature_1729511444326143_412 (10.943)
+sample_1729511444812242_29: signature_1729511444326143_741 (24.829)
+sample_1729511444812242_29: signature_1729511444326143_953 (25.062)
+sample_1729511444812242_33: signature_1729511444326143_20 (23.497)
+sample_1729511444812242_33: signature_1729511444326143_60 (23.603)
+sample_1729511444812242_35: signature_1729511444326143_616 (15.948)
+sample_1729511444812242_37: signature_1729511444326143_495 (10.950)
+sample_1729511444812242_38: signature_1729511444326143_25 (19.313)
+sample_1729511444812242_39: signature_1729511444326143_515 (16.647)
+sample_1729511444812242_41: signature_1729511444326143_369 (17.567)
+sample_1729511444812242_41: signature_1729511444326143_799 (17.688)
+sample_1729511444812242_43: signature_1729511444326143_219 (14.881)
+(FOR AUTOMATED CHECKING) Total runMatcher time:2.22254s
+
+====> 0.2
+
+Settings:
+  FASTA file: test_signatures.fasta
+  Number of samples without virus: 2000
+  Number of samples with virus: 20
+  Number of viruses: minimum 1 to maximum 2
+  Requested sample length: minimum 200000 to maximum 200000
+  Average Phred score: 10 to 30
+  N ratio: 0.2
+  Final sample length values: minimum 200000 to maximum 200000 (after reading virus lengths)
+
+====> Bench...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+(FOR AUTOMATED CHECKING) Total runMatcher time:4.60538s
+
+====> shared_mod...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+sample_1729511486826213_1: signature_1729511486167647_935 (17.643)
+sample_1729511486826213_3: signature_1729511486167647_434 (22.632)
+sample_1729511486826213_3: signature_1729511486167647_852 (22.565)
+sample_1729511486826213_5: signature_1729511486167647_288 (10.654)
+sample_1729511486826213_5: signature_1729511486167647_713 (10.654)
+sample_1729511486826213_6: signature_1729511486167647_129 (9.415)
+sample_1729511486826213_10: signature_1729511486167647_620 (14.346)
+sample_1729511486826213_10: signature_1729511486167647_960 (14.451)
+sample_1729511486826213_12: signature_1729511486167647_725 (15.227)
+sample_1729511486826213_13: signature_1729511486167647_275 (14.399)
+sample_1729511486826213_15: signature_1729511486167647_824 (9.413)
+sample_1729511486826213_20: signature_1729511486167647_970 (8.915)
+sample_1729511486826213_24: signature_1729511486167647_705 (14.426)
+sample_1729511486826213_24: signature_1729511486167647_972 (14.417)
+sample_1729511486826213_25: signature_1729511486167647_642 (20.828)
+sample_1729511486826213_26: signature_1729511486167647_214 (13.006)
+sample_1729511486826213_26: signature_1729511486167647_500 (12.792)
+sample_1729511486826213_27: signature_1729511486167647_208 (21.996)
+sample_1729511486826213_30: signature_1729511486167647_30 (14.424)
+sample_1729511486826213_30: signature_1729511486167647_484 (14.425)
+sample_1729511486826213_32: signature_1729511486167647_875 (12.894)
+sample_1729511486826213_34: signature_1729511486167647_366 (15.295)
+sample_1729511486826213_35: signature_1729511486167647_382 (21.268)
+sample_1729511486826213_35: signature_1729511486167647_838 (21.467)
+sample_1729511486826213_36: signature_1729511486167647_491 (11.993)
+sample_1729511486826213_36: signature_1729511486167647_500 (12.050)
+sample_1729511486826213_37: signature_1729511486167647_526 (22.908)
+sample_1729511486826213_40: signature_1729511486167647_864 (12.759)
+(FOR AUTOMATED CHECKING) Total runMatcher time:2.69624s
+
+====> 0.4
+
+Settings:
+  FASTA file: test_signatures.fasta
+  Number of samples without virus: 2000
+  Number of samples with virus: 20
+  Number of viruses: minimum 1 to maximum 2
+  Requested sample length: minimum 200000 to maximum 200000
+  Average Phred score: 10 to 30
+  N ratio: 0.4
+  Final sample length values: minimum 200000 to maximum 200000 (after reading virus lengths)
+
+====> Bench...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+(FOR AUTOMATED CHECKING) Total runMatcher time:8.02326s
+
+====> shared_mod...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+(FOR AUTOMATED CHECKING) Total runMatcher time:4.3608s
+
+====> 0.6
+
+Settings:
+  FASTA file: test_signatures.fasta
+  Number of samples without virus: 2000
+  Number of samples with virus: 20
+  Number of viruses: minimum 1 to maximum 2
+  Requested sample length: minimum 200000 to maximum 200000
+  Average Phred score: 10 to 30
+  N ratio: 0.6
+  Final sample length values: minimum 200000 to maximum 200000 (after reading virus lengths)
+
+====> Bench...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+sample_1729511588271823_3: signature_1729511587587475_414 (10.502)
+sample_1729511588271823_5: signature_1729511587587475_166 (8.262)
+sample_1729511588271823_5: signature_1729511587587475_647 (8.276)
+sample_1729511588271823_8: signature_1729511587587475_879 (11.000)
+sample_1729511588271823_10: signature_1729511587587475_125 (11.293)
+sample_1729511588271823_11: signature_1729511587587475_166 (10.878)
+sample_1729511588271823_12: signature_1729511587587475_113 (6.337)
+sample_1729511588271823_12: signature_1729511587587475_226 (6.307)
+sample_1729511588271823_14: signature_1729511587587475_60 (8.745)
+sample_1729511588271823_17: signature_1729511587587475_74 (9.408)
+sample_1729511588271823_18: signature_1729511587587475_349 (10.702)
+sample_1729511588271823_19: signature_1729511587587475_392 (5.495)
+sample_1729511588271823_19: signature_1729511587587475_510 (5.607)
+sample_1729511588271823_22: signature_1729511587587475_874 (11.435)
+sample_1729511588271823_26: signature_1729511587587475_438 (8.877)
+sample_1729511588271823_30: signature_1729511587587475_185 (11.688)
+sample_1729511588271823_30: signature_1729511587587475_764 (11.340)
+sample_1729511588271823_31: signature_1729511587587475_839 (4.739)
+sample_1729511588271823_34: signature_1729511587587475_565 (6.858)
+sample_1729511588271823_36: signature_1729511587587475_743 (5.645)
+sample_1729511588271823_37: signature_1729511587587475_491 (4.617)
+sample_1729511588271823_37: signature_1729511587587475_614 (4.794)
+sample_1729511588271823_38: signature_1729511587587475_766 (10.063)
+sample_1729511588271823_40: signature_1729511587587475_197 (8.413)
+sample_1729511588271823_41: signature_1729511587587475_528 (7.232)
+(FOR AUTOMATED CHECKING) Total runMatcher time:17.3022s
+
+====> shared_mod...
+
+Starting to read sample FASTQ file
+Starting to read signature FASTA file
+Read 2020 samples and 1000 signatures.
+Starting timing and matching...
+runMatcher completed.
+sample_1729511588271823_3: signature_1729511587587475_414 (10.502)
+sample_1729511588271823_5: signature_1729511587587475_166 (8.262)
+sample_1729511588271823_5: signature_1729511587587475_647 (8.276)
+sample_1729511588271823_8: signature_1729511587587475_879 (11.000)
+sample_1729511588271823_10: signature_1729511587587475_125 (11.293)
+sample_1729511588271823_11: signature_1729511587587475_166 (10.878)
+sample_1729511588271823_12: signature_1729511587587475_113 (6.337)
+sample_1729511588271823_12: signature_1729511587587475_226 (6.307)
+sample_1729511588271823_14: signature_1729511587587475_60 (8.745)
+sample_1729511588271823_17: signature_1729511587587475_74 (9.408)
+sample_1729511588271823_18: signature_1729511587587475_349 (10.702)
+sample_1729511588271823_19: signature_1729511587587475_392 (5.495)
+sample_1729511588271823_19: signature_1729511587587475_510 (5.607)
+sample_1729511588271823_22: signature_1729511587587475_874 (11.435)
+sample_1729511588271823_26: signature_1729511587587475_438 (8.877)
+sample_1729511588271823_30: signature_1729511587587475_185 (11.688)
+sample_1729511588271823_30: signature_1729511587587475_764 (11.340)
+sample_1729511588271823_31: signature_1729511587587475_839 (4.739)
+sample_1729511588271823_34: signature_1729511587587475_565 (6.858)
+sample_1729511588271823_36: signature_1729511587587475_743 (5.645)
+sample_1729511588271823_37: signature_1729511587587475_491 (4.616)
+sample_1729511588271823_37: signature_1729511587587475_614 (4.794)
+sample_1729511588271823_38: signature_1729511587587475_766 (10.063)
+sample_1729511588271823_40: signature_1729511587587475_197 (8.413)
+sample_1729511588271823_41: signature_1729511587587475_528 (7.232)
+(FOR AUTOMATED CHECKING) Total runMatcher time:9.2795s
+
+====> Finished...
+
